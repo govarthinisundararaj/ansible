@@ -1,5 +1,5 @@
 --- #test config to install iis in windows server 2019
-- hosts: windows2019
+- hosts: 155.138.217.199
   tasks:
     - name: installing iis in win2019 server
       win_feature:
